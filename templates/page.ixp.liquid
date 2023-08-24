@@ -1,0 +1,54 @@
+<div class="ixp-cl">
+{% comment %}
+  {{ "object" | upcase }} <br>
+  {{ "object" | downcase }}
+  {% assign number= 6 %}
+  {{ number }}
+{% endcomment %}
+
+ {% comment %}
+  {% assign var= "I love my country" %}
+  {{ var | upcase }}
+ {% endcomment %}
+
+ {% comment %}
+  {% assign number1= 6 %} 
+  {% assign number2= 10 %}
+  sum : {{ number1 | plus: number2 }} <br>
+  subtrack : {{ number1 | minus: number2 }} <br>
+  multiply : {{ number1 | times: number2 }} <br>
+  division : {{ number1 | divided_by: number2 }} <br>
+  modulus : {{ number1 | modulo: number2 }} <br>
+ {% endcomment %}
+
+  {% assign result=59 %}
+  {% if result > 100 %}
+    <P> Your marks must be between 0 to 100.</P>
+  {% elsif result >= 80 and result < 100 %}
+    <p> You got A+</p>
+  {% elsif result >= 70 and result < 80 %}
+    <p> You got A</p>
+  {% elsif result >= 60 and result < 70 %}
+    <p> You got A- </p>
+  {% elsif result >= 50 and result < 60 %}
+    <p> You got B </p>
+  {% elsif result >= 40 and result < 50 %}
+    <p> You got C </p>
+  {% elsif result >= 33 and result < 40 %}
+    <p> You got D </p>
+  {% else %}
+    <p> You are failed!!</p>
+    {% endif %}
+</div>
+
+
+<style>
+  .ixp-cl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+  }
+  
+</style>
