@@ -42,13 +42,24 @@
     {% endif %}
 {% endcomment %}
 
+  {% comment %}
   {% assign color = "red" %}
   {% unless color != "green" %}
     <p>The name of the color is not {{ color }}</p>
   {% else %}
     <p>The name of the color is {{ color }}</p>
-    
   {% endunless %}
+  {% endcomment %}
+
+  {% assign color = "red" %}
+  {% case color %}
+    {% when "blue" %}
+    <p>The color is {{ color }}</p>
+    {% when "green" %}
+    <p>The color is {{ color }}</p>
+    {% else %}
+    <P>None of the above</P>
+    {% endcase %}
 </div>
 
 
