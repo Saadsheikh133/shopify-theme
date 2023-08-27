@@ -69,12 +69,17 @@
     {% endfor %}
   {% endcomment %}
 
+  {% comment %}
   {% for i in (1..20) %}
     {% if forloop.index %}
     {{ forloop.index }}
   {% endif %}
     {% endfor %}
-    
+  {% endcomment %}
+
+  {% for i in (1..20) %}
+  {{ i | (i, j) }}
+  {% endfor %}
 </div>
 
 
