@@ -43,10 +43,10 @@
 {% endcomment %}
 
   {% assign color = "red" %}
-  {% if color == "red" %}
-    <p>The name of the color is {{ color }}</p>
-  {% else %}
+  {% if color != "green" %}
     <p>The name of the color is not {{ color }}</p>
+  {% else %}
+    <p>The name of the color is {{ color }}</p>
     
   {% endif %}
 </div>
