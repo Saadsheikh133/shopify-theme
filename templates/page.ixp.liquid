@@ -21,6 +21,7 @@
   modulus : {{ number1 | modulo: number2 }} <br>
  {% endcomment %}
 
+{% comment %}
   {% assign result=59 %}
   {% if result > 100 %}
     <P> Your marks must be between 0 to 100.</P>
@@ -39,6 +40,7 @@
   {% else %}
     <p> You are failed!!</p>
     {% endif %}
+{% endcomment %}
 </div>
 
 
