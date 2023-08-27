@@ -70,15 +70,11 @@
   {% endcomment %}
 
   {% for i in (1..20) %}
-   
+    {% if forloop.first %}
+      <p>Index number 1.</p>
+  {% endif %}
     {% endfor %}
-     {% if i > 20 %}
-      <p>This is inside of if condition</p>
-  {% elsif i> 6 %}
-      <p>This is inside of elsif condition</p>
-  {% else %}
-      <p>This is inside of else condition</p>
-    {% endif %}
+    
 </div>
 
 
