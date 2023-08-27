@@ -51,15 +51,21 @@
   {% endunless %}
   {% endcomment %}
 
+  {% comment %}
   {% assign color = "red" %}
   {% case color %}
-    {% when "red" %}
+    {% when "blue" %}
     <p>The color is {{ color }}</p>
     {% when "green" %}
     <p>The color is {{ color }}</p>
     {% else %}
     <P>None of the above</P>
     {% endcase %}
+  {% endcomment %}
+
+  {% for i in (1..20) %}
+    {{ i }}
+    {% endfor %}
 </div>
 
 
