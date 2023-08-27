@@ -70,8 +70,8 @@
   {% endcomment %}
 
   {% for i in (1..20) %}
-    {% if forloop.first %}
-      <p>Index number 1.</p>
+    {% if forloop.last %}
+      <p>Index number 20.</p>
   {% endif %}
     {% endfor %}
     
