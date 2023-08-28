@@ -1,1 +1,120 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image_overlay_opacity":40,"image_height":"large","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}}},"order":["image_banner","featured_collection"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our best selling products",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/240_F_44637485_X55WRl5ZpXZbz4i99Cwwz4o4xwdrCELa.jpg",
+        "image_2": "shopify:\/\/shop_images\/240_F_219497441_wLL3P3X1sFOWPBdT6Nf2IVdShrwQtLTg.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "0c968b88-3a15-4aa8-919a-b2f77d799fc3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20669052846355__0c968b88-3a15-4aa8-919a-b2f77d799fc3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Organic Foods",
+            "heading_size": "h1"
+          }
+        },
+        "template--20669052846355__0c968b88-3a15-4aa8-919a-b2f77d799fc3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Organic food policies were created largely to provide a certification system with specific rules regarding production methods, and only products that follow the guidelines are allowed to use the certified organic labels. In the United States, theOrganic Foods Production Act of 1990 began the process of establishing enforceable rules to<a href=\"https:\/\/www.merriam-webster.com\/dictionary\/mandate\">mandate<\/a>how agricultural products are grown, sold, and labeled.<\/p>"
+          }
+        },
+        "template--20669052846355__0c968b88-3a15-4aa8-919a-b2f77d799fc3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20669052846355__0c968b88-3a15-4aa8-919a-b2f77d799fc3-heading-1",
+        "template--20669052846355__0c968b88-3a15-4aa8-919a-b2f77d799fc3-text-1",
+        "template--20669052846355__0c968b88-3a15-4aa8-919a-b2f77d799fc3-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "0c968b88-3a15-4aa8-919a-b2f77d799fc3"
+  ]
+}
