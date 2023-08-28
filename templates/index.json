@@ -127,12 +127,147 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0ca01569-9f07-4e0c-af5c-bab07d446b8c": {
+      "type": "video",
+      "settings": {
+        "heading": "Source",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=c7-aJlzNp94&list=PL-to22yuZSLvy03dSAYaTUzD6bq9JQyYH&index=14",
+        "cover_image": "shopify:\/\/shop_images\/240_F_81632784_dywiaX7xqRp7KDqMluwgqlkykvz3aK03.jpg",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}This is our best food",
+            "text_style": "uppercase"
+          }
+        },
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-text-1",
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-title-1",
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-price-1",
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-variant_picker-1",
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-quantity_selector-1",
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-buy_buttons-1",
+        "template--20669052846355__67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58-share-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "78fbb93d-4e96-4354-a9e9-22147a61c54b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20669052846355__78fbb93d-4e96-4354-a9e9-22147a61c54b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "This is our best food",
+            "heading_size": "h1"
+          }
+        },
+        "template--20669052846355__78fbb93d-4e96-4354-a9e9-22147a61c54b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20669052846355__78fbb93d-4e96-4354-a9e9-22147a61c54b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Details",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20669052846355__78fbb93d-4e96-4354-a9e9-22147a61c54b-heading-1",
+        "template--20669052846355__78fbb93d-4e96-4354-a9e9-22147a61c54b-text-1",
+        "template--20669052846355__78fbb93d-4e96-4354-a9e9-22147a61c54b-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/240_F_32923039_pqQ5qAwmk70lrbdMg5jx6PFa1932Itzx.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "0c968b88-3a15-4aa8-919a-b2f77d799fc3",
     "featured_collection",
-    "27967d14-5dfa-4188-8891-ee38f10a2466"
+    "27967d14-5dfa-4188-8891-ee38f10a2466",
+    "0ca01569-9f07-4e0c-af5c-bab07d446b8c",
+    "67ac7bf1-ea98-43ad-aa8d-1c0bf0c9ec58",
+    "78fbb93d-4e96-4354-a9e9-22147a61c54b"
   ]
 }
